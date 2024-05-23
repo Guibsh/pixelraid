@@ -4,22 +4,16 @@ y+=global.pvsp
  
 if (keyboard_check(ord("W")))
 {
-	global.pvsp+=.5
+	global.pvsp=2
 }
 if (keyboard_check(ord("S")))
 {
 
-	global.pvsp=global.pvsp-0.5
+	global.pvsp=0.5
 } 
 
-	if (global.pvsp<1) {
-		global.pvsp=1
-	}
-	
-	if (global.pvsp>4) {
-		global.pvsp=4
-	}
 
+	
 
 
 
