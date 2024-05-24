@@ -1,3 +1,4 @@
+randomize()
 Life=5
-hsp=1
+hsp=random_range(-1,1)
 vsp=1

@@ -7,7 +7,4 @@ if Life=0 {
 	}
   
 y+=vsp	
-x+=hsp
-
-if x<0 {hsp=-hsp}
-if x>room_width {hsp=-hsp}
+x-=hsp

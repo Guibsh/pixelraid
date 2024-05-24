@@ -6,7 +6,7 @@ if Life=0 {
 	instance_destroy(self)
 	}
   
-y+=global.pvsp
+y+=vsp
 x+=hsp
 
 if hsp<0 { image_xscale=-2}
@@ -14,6 +14,4 @@ else image_xscale=+2
 
 image_yscale=+2
 
-
-if x<0 {hsp=-hsp}
-if x>room_width {hsp=-hsp}
+if (x < 0) {hsp=-hsp}

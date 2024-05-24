@@ -11,5 +11,5 @@ if (global.mytime=0)
 	room_restart()
 }
 
-if global.mytime>100 {
-	global.mytime=100}
+if global.mytime>3000 {
+	global.mytime=3000}

@@ -8,11 +8,10 @@ if (keyboard_check(ord("A")))
 {
 
 sprite_index=spr_plane_moving
-	image_xscale=+2
+	image_xscale=+1
 }
 
 if (keyboard_check(ord("D")))
 {
 sprite_index=spr_plane_moving
-image_xscale=-2
-}
+image_xscale=-1}

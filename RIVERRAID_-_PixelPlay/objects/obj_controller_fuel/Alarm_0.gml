@@ -9,4 +9,4 @@ var i = instance_create_layer((random_range(250,10)), -100, "Instances", obj_spa
 i.image_speed = 1;
 
 
-alarm[0] = room_speed * random_range(1/global.speedModifier, 6/global.speedModifier);
+alarm[0] = room_speed * random_range(10/global.speedModifier, 10/global.speedModifier);

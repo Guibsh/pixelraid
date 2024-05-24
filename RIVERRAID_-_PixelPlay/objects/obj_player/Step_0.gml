@@ -1,37 +1,12 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-if (keyboard_check(ord("W")))
-{
-y-=0
-}
-
-if (keyboard_check(ord("S")))
-{
-y+=0	
-}
-
 if (keyboard_check(ord("A")))
 {
-x-=5	image_xscale=+2
+x-=3	image_xscale=+1
 }
 
 if (keyboard_check(ord("D")))
 {
-x+=5	image_xscale=-2
+x+=3	image_xscale=-1
 }
-
-
-//Left and Right Animations
-
-
-//Next Level
-
-if global.stardust=3
-{
-	room_goto_next()
-}
-
 
 
 // Mouse Left Button Event for obj_thrower
