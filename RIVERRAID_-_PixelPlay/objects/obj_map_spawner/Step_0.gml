@@ -1,7 +1,7 @@
 	// Moves position at the speed and rate
-y -= vsp;
+y -= obj_game_manager.current_speed * background_move_rate;
 
-	// Checks if the x position has gone off screen to the left
+	// Checks if the y position has gone off screen to the bottom
 	if (y > 220)
 	{
 		// Sets the sprites to the next one along
@@ -25,6 +25,6 @@ y -= vsp;
 				break;
 		}
 	
-		// Moves the x coordinate along by its width
+		// Moves the y coordinate along by its width
 		y -= sprite_height;
 	}

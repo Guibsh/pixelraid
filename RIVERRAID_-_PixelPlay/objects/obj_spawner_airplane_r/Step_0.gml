@@ -6,12 +6,5 @@ if Life=0 {
 	instance_destroy(self)
 	}
   
-y+=vsp
-x+=hsp
-
-if hsp<0 { image_xscale=-2}
-else image_xscale=+2
-
-image_yscale=+2
-
-
+y+=vsp	
+x-=hsp

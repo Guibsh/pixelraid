@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_grass03",
   "bboxMode":0,
-  "bbox_bottom":3999,
+  "bbox_bottom":399,
   "bbox_left":0,
   "bbox_right":399,
   "bbox_top":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":4000,
+  "height":400,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"2a530d85-9028-4877-b13f-6c804f5cec22","blendMode":0,"displayName":"default","isLocked":false,"name":"2a530d85-9028-4877-b13f-6c804f5cec22","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},

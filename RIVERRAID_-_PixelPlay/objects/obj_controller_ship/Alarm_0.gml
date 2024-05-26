@@ -1,15 +1,27 @@
-// Coordenadas onde você deseja spawnar o novo objeto
-var x_pos = random(room_width-20);
-var y_pos = -10;
+// Função para spawnar o navio em uma posição aleatória na água
+function spawn_ship() {
+    var ship;
+    var max_attempts = 1 // Limita o número de tentativas para evitar loops infinitos
+    var attempts = 0;
+    
+    repeat (max_attempts) {
+        var x_pos = irandom_range(0, room_width);
+        var y_pos = irandom_range(0, room_height);
+        
+        // Verifica se a posição escolhida não está colidindo com grama
+        if (!position_meeting(x_pos, 0, obj_map_spawner)) {
+            ship = instance_create_layer(x_pos, 0, "Instances", obj_spawner_ship);
+            break; // Sai do loop após encontrar uma posição válida
+        }
+        
+        attempts++;
+    }
+    }
 
-// Loop até encontrar uma posição válida
-while (!place_free(x_pos, y_pos)) {
-    x_pos = random(room_width);
-    y_pos = random(room_height);
-}
+// Chama a função para spawnar o navio
+spawn_ship();
 
 
-instance_create_layer(x_pos, -10, "Instances", obj_spawner_ship);
 
 
 alarm[0] = room_speed * random_range(1/global.speedModifier, 6/global.speedModifier);

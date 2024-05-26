@@ -1,0 +1,2 @@
+
+Life=Life-global.Atk

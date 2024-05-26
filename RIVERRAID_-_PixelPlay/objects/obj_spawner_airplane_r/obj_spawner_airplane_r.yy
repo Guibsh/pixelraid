@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spawner_airplane",
+  "%Name":"obj_spawner_airplane_r",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -10,7 +10,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_map_spawner","path":"objects/obj_map_spawner/obj_map_spawner.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_spawner_airplane",
+  "name":"obj_spawner_airplane_r",
   "overriddenProperties":[],
   "parent":{
     "name":"Ctrl_Spawners",

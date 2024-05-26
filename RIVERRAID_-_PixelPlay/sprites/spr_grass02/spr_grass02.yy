@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_grass02",
   "bboxMode":0,
-  "bbox_bottom":3999,
+  "bbox_bottom":399,
   "bbox_left":0,
   "bbox_right":399,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b228d62b-3207-4d79-a6b6-9ae0ddd39469","name":"b228d62b-3207-4d79-a6b6-9ae0ddd39469","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d365b813-c26c-4788-8c54-20b1edd3038d","name":"d365b813-c26c-4788-8c54-20b1edd3038d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":4000,
+  "height":400,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"310555f8-369d-4b76-9e8a-ad4ba05971c8","blendMode":0,"displayName":"default","isLocked":false,"name":"310555f8-369d-4b76-9e8a-ad4ba05971c8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"83f09564-dd87-47d7-a558-d40504fd17df","blendMode":0,"displayName":"default","isLocked":false,"name":"83f09564-dd87-47d7-a558-d40504fd17df","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_grass02",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b228d62b-3207-4d79-a6b6-9ae0ddd39469","path":"sprites/spr_grass02/spr_grass02.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"af98a45c-9a58-425c-8522-e4f25e5ba2e4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d365b813-c26c-4788-8c54-20b1edd3038d","path":"sprites/spr_grass02/spr_grass02.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"252949ea-c0be-49fa-b8e1-c865e33141f4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

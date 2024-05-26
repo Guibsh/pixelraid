@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-hsp=0
+global.speedModifier += 0.0005;
+score += 1 * global.speedModifier;

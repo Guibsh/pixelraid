@@ -23,3 +23,10 @@ if (mouse_check_button_pressed(mb_left))
 }
 
 
+// Variável para armazenar o objeto colidido
+var colidido = instance_place(x, y, all);
+
+// Verifica se há uma colisão com qualquer objeto
+if (colidido != noone && colidido.object_index != (obj_spawner_fuel) && colidido.object_index != (obj_projectile)) {
+    room_restart();
+}
