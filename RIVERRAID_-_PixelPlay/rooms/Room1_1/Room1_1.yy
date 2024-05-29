@@ -28,7 +28,7 @@
           -20,-2147483648,-5,0,-20,-2147483648,-3,0,-22,-2147483648,-3,0,-22,-2147483648,-3,0,-22,-2147483648,
           -3,0,-22,-2147483648,-3,0,-22,-2147483648,-3,0,-22,-2147483648,-3,0,-22,-2147483648,-4,0,-21,-2147483648,
           -4,0,-21,-2147483648,-4,0,-2771,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"tile_grass","path":"tilesets/tile_grass/tile_grass.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4289023232,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":1.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"Room1_1",

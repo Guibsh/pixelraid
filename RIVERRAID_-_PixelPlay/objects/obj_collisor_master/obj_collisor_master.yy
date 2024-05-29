@@ -2,11 +2,8 @@
   "$GMObject":"",
   "%Name":"obj_collisor_master",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_spawner_fuel","path":"objects/obj_spawner_fuel/obj_spawner_fuel.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_spawner_ship","path":"objects/obj_spawner_ship/obj_spawner_ship.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_spawner_airplane_r","path":"objects/obj_spawner_airplane_r/obj_spawner_airplane_r.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_spawner_bridge","path":"objects/obj_spawner_bridge/obj_spawner_bridge.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_collisor_master",
@@ -38,5 +35,5 @@
     "path":"sprites/spr_room_limit/spr_room_limit.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

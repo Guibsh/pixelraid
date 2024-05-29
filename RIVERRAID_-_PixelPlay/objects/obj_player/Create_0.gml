@@ -3,3 +3,6 @@
 window_set_size(1920,1080)
 global.Atk=5
 
+image_yscale=1.3
+image_xscale=image_yscale
+

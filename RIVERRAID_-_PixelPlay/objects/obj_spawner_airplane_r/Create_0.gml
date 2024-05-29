@@ -3,4 +3,4 @@
 Life=5
 DMG=10
 vsp=1
-hsp=2
+hsp=choose(2,2.5,3)

@@ -1,5 +1,5 @@
 	// Moves position at the speed and rate
-y -= obj_game_manager.current_speed * background_move_rate;
+y -= obj_game_manager.current_speed * global.background_move_rate;
 
 	// Checks if the y position has gone off screen to the bottom
 	if (y > 220)

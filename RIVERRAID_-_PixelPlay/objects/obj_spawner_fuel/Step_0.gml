@@ -1,4 +1,4 @@
 image_xscale=+1
 image_yscale=+1
 
-y+=vsp
+y+=global.background_move_rate

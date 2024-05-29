@@ -6,7 +6,7 @@ if Life=0 {
 	instance_destroy(self)
 	}
   
-y+=vsp
+y+=global.background_move_rate
 x+=hsp
 
 if hsp<0 { image_xscale=-2}

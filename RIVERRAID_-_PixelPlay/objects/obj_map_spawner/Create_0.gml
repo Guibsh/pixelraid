@@ -19,5 +19,5 @@ y = random_range(0, sprite_height);
 
 
 // Sets parallaxing move rate
-background_move_rate = 1;
+global.background_move_rate = 1;
 
