@@ -8,6 +8,8 @@ y -= obj_game_manager.current_speed * global.background_move_rate;
 		before_sprite = sprite_index;
 		sprite_index = after_sprite;
 	
+		instance_create_layer(196,y,"instances", obj_spawner_bridge)
+	
 		// Checks what the last after sprite used was and swaps the sprite to the next one along following the pattern
 		switch(after_sprite)
 		{

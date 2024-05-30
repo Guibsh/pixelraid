@@ -9,7 +9,7 @@ function spawn_ship() {
         var y_pos = irandom_range(0, 30);
         
         // Verifica se a posição escolhida não está colidindo com grama
-        if (!position_meeting(x_pos, y_pos, obj_map_spawner)) {
+        if (!position_meeting(x_pos, y_pos, obj_mapspawner_grass)) {
             ship = instance_create_layer(x_pos, y_pos, "Instances", obj_spawner_fuel);
             break; // Sai do loop após encontrar uma posição válida
         }
@@ -22,4 +22,4 @@ function spawn_ship() {
 spawn_ship();
 
 
-alarm[0] = 120;
+alarm[0] = (room_speed * random_range(5,10)) * random_range(2/global.speedModifier, 6/global.speedModifier);

@@ -52,7 +52,7 @@ has_prefetched = false;
 
 // Creates game objects for room environment
 
-instance_create_layer(0, 0, "Instances_1", obj_map_spawner);
+instance_create_layer(0, 0, "Instances_1", obj_mapspawner_grass);
 
 
 

@@ -9,7 +9,7 @@ function spawn_ship() {
         var y_pos = irandom_range(0, 30);
         
         // Verifica se a posição escolhida não está colidindo com grama
-        if (!position_meeting(x_pos, y_pos, obj_map_spawner)) {
+        if (!position_meeting(x_pos, y_pos, obj_mapspawner_grass)) {
             ship = instance_create_layer(x_pos, y_pos, "Instances", obj_spawner_ship);
             break; // Sai do loop após encontrar uma posição válida
         }

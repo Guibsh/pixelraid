@@ -1,15 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (global.mytime >0)
+if (global.fuel >0)
 {
-	global.mytime=global.mytime-delta_time/1000000;
-} else global.mytime=0;
-showtime =ceil(global.mytime)
+	global.fuel=global.fuel-delta_time/1000000;
+} else global.fuel=0;
+showtime =ceil(global.fuel)
 
-if (global.mytime=0)
+if (global.fuel=0)
 {
 	room_restart()
 }
 
-if global.mytime>3000 {
-	global.mytime=3000}
+if global.fuel>30 {
+	global.fuel=30}

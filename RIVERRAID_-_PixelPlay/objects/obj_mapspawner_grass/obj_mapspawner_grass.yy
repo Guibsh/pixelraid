@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_map_spawner",
+  "%Name":"obj_mapspawner_grass",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_map_spawner",
+  "name":"obj_mapspawner_grass",
   "overriddenProperties":[],
   "parent":{
     "name":"Draw",

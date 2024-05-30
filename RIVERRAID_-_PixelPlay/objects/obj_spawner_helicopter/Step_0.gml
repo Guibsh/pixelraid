@@ -16,5 +16,5 @@ else image_xscale=.7
 image_yscale=.7
 
 
-if hsp=0 {hsp = choose(1,2,3,-1,-2,-3)}
+if hsp=0 {hsp = choose(2,3,-2,-3)}
 

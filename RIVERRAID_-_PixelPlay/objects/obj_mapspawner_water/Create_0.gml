@@ -1,8 +1,8 @@
 // Stores the midground sprites inside an array
-sprite[0] = spr_grass02;
-sprite[1] = spr_grass01;
-sprite[2] = spr_grass04;
-sprite[3] = spr_grass03;
+sprite[0] = spr_water1;
+sprite[1] = spr_water2;
+sprite[2] = spr_water1;
+sprite[3] = spr_water2;
 
 // Prefeches them to prevent hanging later
 sprite_prefetch_multi(sprite);
@@ -15,7 +15,7 @@ after_sprite =sprite[2];
 // Sets new random x position
 x = 0;
 // Sets y position
-y = random_range(0, sprite_height);
+y = 0;
 
 
 // Sets parallaxing move rate

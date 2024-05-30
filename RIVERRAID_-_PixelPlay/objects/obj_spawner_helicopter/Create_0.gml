@@ -1,4 +1,4 @@
 randomize()
 Life=5
-hsp=random_range(-3,3)
+hsp=choose(-3,-2,2,3)
 vsp=1

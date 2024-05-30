@@ -1,13 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+image_xscale=+1
+image_yscale=+1
 
-//Se a vida chegar a 0 o inimigo morre
-if Life=0 {
-	instance_destroy(self)
-	}
-  
-y+=vsp	
-x+=hsp
+y+=global.background_move_rate
 
-if x<0 {hsp=-hsp}
-if x>room_width {hsp=-hsp}
+if vida = 0 {instance_destroy(self)}
+if vida = 2 {sprite_index=(spr_bridge_1)}
+
+if vida = 1 {sprite_index=(spr_bridge_2)}
