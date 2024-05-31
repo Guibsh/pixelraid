@@ -1,4 +1,4 @@
 randomize()
 Life=5
-hsp=choose(-3,-2,2,3)
+hsp=choose(-1,1)
 vsp=1

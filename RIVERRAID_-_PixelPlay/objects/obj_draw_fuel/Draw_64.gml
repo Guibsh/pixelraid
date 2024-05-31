@@ -11,5 +11,3 @@ draw_set_color(c_yellow)
 draw_text(793,716,global.score)
 
 
-
-

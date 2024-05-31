@@ -13,6 +13,19 @@ if (keyboard_check(ord("S")))
 	global.fuel+=0.01
 } 
 
+if (keyboard_check(vk_up))
+{
+	global.background_move_rate=1.5
+	global.fuel-=0.01
+}
+if (keyboard_check(vk_down))
+{
+
+	global.background_move_rate=0.5
+	global.fuel+=0.01
+} 
+
+
 
 	
 

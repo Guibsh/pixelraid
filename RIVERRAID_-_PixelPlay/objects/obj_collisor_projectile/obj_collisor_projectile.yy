@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Object26",
-  "eventList":[],
+  "%Name":"obj_collisor_projectile",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object26",
+  "name":"obj_collisor_projectile",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ctrl_Spawners",
-    "path":"folders/Objects/Ctrl_Spawners.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_room_limit",
+    "path":"sprites/spr_room_limit/spr_room_limit.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

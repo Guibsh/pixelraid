@@ -6,3 +6,6 @@ global.Atk=5
 image_yscale=1.3
 image_xscale=image_yscale
 
+window_set_cursor(cr_none);
+
+

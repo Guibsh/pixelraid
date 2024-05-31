@@ -6,7 +6,7 @@ function spawn_ship() {
     
     repeat (max_attempts) {
         var x_pos = irandom_range(0, room_width);
-        var y_pos = irandom_range(0, 30);
+        var y_pos = irandom_range(126, 218);
         
         // Verifica se a posição escolhida não está colidindo com grama
         if (!position_meeting(x_pos, y_pos, obj_mapspawner_grass)) {
@@ -24,4 +24,4 @@ spawn_ship();
 
 
 
-alarm[0] = room_speed * random_range(2/global.speedModifier, 6/global.speedModifier);
+alarm[0] = (room_speed * 2) * random_range(2/global.speedModifier, 6/global.speedModifier);
