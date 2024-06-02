@@ -4,9 +4,9 @@ randomize();
 
 var count = irandom_range(1, 2);
 
-var i = instance_create_layer(410, choose(200, 210, 220, 230, 240, 250, 260,200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300), "Instances", obj_spawner_airplane_r);
+var i = instance_create_layer(410, choose(205, 215, 225, 235, 245, 255, 265, 205, 215, 225, 235, 245, 255, 265, 275, 285, 295, 305), "Instances", obj_spawner_airplane_r);
 
 i.image_speed = 1;
 
 
-alarm[0] = (room_speed * 5) * random_range(2/global.speedModifier, 6/global.speedModifier);
+alarm[0] = (room_speed * 5) * random_range(2/global.speedModifier, 7/global.speedModifier);

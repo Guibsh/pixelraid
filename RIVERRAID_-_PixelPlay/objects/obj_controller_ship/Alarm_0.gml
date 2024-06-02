@@ -22,6 +22,4 @@ function spawn_ship() {
 spawn_ship();
 
 
-
-
 alarm[0] = (room_speed * 2) * random_range(2/global.speedModifier, 6/global.speedModifier);

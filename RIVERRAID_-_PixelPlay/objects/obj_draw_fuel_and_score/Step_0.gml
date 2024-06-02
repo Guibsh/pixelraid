@@ -13,3 +13,6 @@ if (global.fuel=0)
 
 if global.fuel>30 {
 	global.fuel=30}
+	
+	if global.fuel<10 {
+	audio_play_sound(Combustivel_Low,0,false)}

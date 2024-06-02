@@ -5,4 +5,4 @@ var y_pos = random(room_height);
 
 global.speedModifier = 1;
 
-alarm[0] = room_speed * 1;
+alarm[0] = 1.1;

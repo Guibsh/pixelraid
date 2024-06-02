@@ -1,11 +1,11 @@
 if (keyboard_check(ord("A")))
 {
-x-=3	
+x-=2	
 }
 
 if (keyboard_check(ord("D")))
 {
-x+=3	
+x+=2	
 }
 
 if (keyboard_check(vk_left))

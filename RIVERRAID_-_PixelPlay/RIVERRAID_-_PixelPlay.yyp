@@ -50,7 +50,7 @@
     {"id":{"name":"obj_controller_helicopter","path":"objects/obj_controller_helicopter/obj_controller_helicopter.yy",},},
     {"id":{"name":"obj_controller_ship","path":"objects/obj_controller_ship/obj_controller_ship.yy",},},
     {"id":{"name":"obj_destroyanim","path":"objects/obj_destroyanim/obj_destroyanim.yy",},},
-    {"id":{"name":"obj_draw_fuel","path":"objects/obj_draw_fuel/obj_draw_fuel.yy",},},
+    {"id":{"name":"obj_draw_fuel_and_score","path":"objects/obj_draw_fuel_and_score/obj_draw_fuel_and_score.yy",},},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
     {"id":{"name":"obj_mapspawner_grass","path":"objects/obj_mapspawner_grass/obj_mapspawner_grass.yy",},},
     {"id":{"name":"obj_mapspawner_water","path":"objects/obj_mapspawner_water/obj_mapspawner_water.yy",},},
